@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class money {
+public class Money {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Введите сумму в десятичном формате:");
@@ -20,9 +20,5 @@ public class money {
         System.out.println("Количество никелей: " + nickel);
         int penny = (int) cents;
         System.out.println("Количество пенни:" + penny);
-
-
-
-
     }
 }
